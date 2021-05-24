@@ -55,10 +55,10 @@ last_modified_at: 2021-05-24
 <br/><br/>
 조금 둘러봤는데 확연히 느낄 정도로 친절함+세세함+업데이트+피드백이 잘되는 테마입니다. 괜히 탑급의 인기가 이니네요. 덕분에 자료도 많습니다.
 <br/><br/>
-블로그 첫 포스팅 주제로는 블로그 개발 과정을 조금씩 정리하며 올릴려고 합니다. 주로 참고로 한 블로그는 다음과 같습니다.  
+블로그 첫 포스팅 주제로는 블로그 개발 과정을 조금씩 정리하며 올릴려고 합니다. 주로 참고로 한 블로그는 다음과 같습니다. 잘 정리해 주셔서 감사합니다.  
 
 >[취미로 코딩하는 개발자](https://devinlife.com/howto/)  
-[평생 공부 블로그 : Today I Learned‍ 🌙](https://ansohxxn.github.io/categories/blog)
+[평생 공부 블로그 : Today I Learned‍ 🌙](https://ansohxxn.github.io/categories/blog)  
   
 
 읽어주셔서 감사합니다.

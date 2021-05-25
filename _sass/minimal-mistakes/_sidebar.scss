@@ -37,7 +37,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} - 3em); /*1em*/
   }
 
   > * {
@@ -117,8 +117,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 70px; /*36px*/
+  height: 70px; /*36px*/
 
   @include breakpoint($large) {
     display: block;
@@ -127,8 +127,9 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    margin-top: 0.5em;
+    max-width: 150px; /*110px*/
+    border-radius: 10%; /*50%*/
 
     @include breakpoint($large) {
       padding: 5px;
@@ -159,9 +160,10 @@
 
 .author__name {
   margin: 0;
+  margin-top: 5px;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 15px; /*10px*/
     margin-bottom: 10px;
   }
 }

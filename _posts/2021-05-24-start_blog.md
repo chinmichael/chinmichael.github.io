@@ -1,9 +1,9 @@
 ---
-title: "[Blog 관리] Github Pages 시작"
+title: "[Blog Making] Github Pages 시작"
 excerpt: ""
 
 categories:
-    - Blog
+    - Blog Making
 tags:
     - [Blog, Github Page]
 
@@ -38,7 +38,7 @@ last_modified_at: 2021-05-24
 * velog
 * Github Pages
 ```
-사실 '개발블로그'에서 가장 주목 받는건 개인적으로 봤을 때 Github의 정적 웹사이트 호스팅 서비스인 `Github Pages`를 사용한 블로그인 것 같습니다. 하지만 처음 시작하기엔 조금 난이도가 있어보였죠.
+사실 '개발블로그'에서 가장 주목 받는건 개인적으로 봤을 때 <u>Github의 정적 웹사이트 호스팅 서비스인 Github Pages</u>를 사용한 블로그인 것 같습니다. 하지만 처음 시작하기엔 조금 난이도가 있어보였죠.
 <br/><br/>
 그래도 제가 블로그에서 추구하는 다음 몇가지를 추려본 결과 공부도 할겸 Github Pages로 하자!로 결정하게 되었습니다.
 ```

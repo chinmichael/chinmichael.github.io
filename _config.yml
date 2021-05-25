@@ -280,6 +280,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_navi: true
   # _pages
   - scope:
       path: ""
@@ -287,3 +288,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar_navi: true

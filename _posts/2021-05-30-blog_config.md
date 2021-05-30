@@ -141,7 +141,43 @@ footer:
 위와 마찬가지로 굉장히 직관적이기 때문에 천천히 읽어나가면 수정이 그리 크게 어렵지 않다고 생각합니다. `avatar`은 경우 위 `site setting`의 `logo`처럼 `assets`에 개인적으로 가져온 이미지 파일의 상대주소를 입력했습니다.
 <br/><br/>
 
-`bio` (프로필 소개) 부분에서 줄바꿈이 필요하신 경우 HTML의 `<br/>`태그를 사용하시면 됩니다. 물론 Markdown문법의 강조 표현을 넣으실 수도 있습니다. 마크 다운 문법에 대해서는 다음 포스팅에서 다뤄보도록 하겠습니다.
+`bio` (프로필 소개) 부분에서 줄바꿈이 필요하신 경우 HTML의 `<br/>`태그를 사용하시면 됩니다. <u>물론 Markdown문법의 강조 표현을 넣으실 수도 있습니다.</u> 마크 다운 문법에 대해서는 다음 포스팅에서 다뤄보도록 하겠습니다.
+
+<br/><br/>
+
+## 3. Defaults
+```
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments:  true
+      share: true
+      related: true
+      sidebar_navi: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar_navi: true
+```
+
+<br/>
+
+<u>블로그 포스팅 화면(`_posts`)과 카테고리나 태그화면 등</u> Minimal Mistakes테마의 `article` 페이지(`_pages`)의 <u>레이아웃이나 무엇을 보여줄 지</u>를 설정하는 부분입니다. `author_profile`은 좌측의 프로필 부분(모바일에서는 상단)을 보이게 하는가에 대한 부분입니다.
+
+<br/>
+
+ 댓글기능 활성화를 위해 `comment`부분을 활성화하고 `# _pages`부분을 추가한 정도이지만 혹시 모르니 이 부분은 수정하지 않은 부분에 대해서 생략을 하지 않았습니다. 
 
 <br/>
 

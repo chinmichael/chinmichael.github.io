@@ -5,7 +5,7 @@ excerpt: ""
 categories: 
     - Blog Making
 tags:
-    - [Blog, Github Pages\]
+    - [Blog, Github Pages]
 
 toc: true
 toc_label: "목차"
@@ -21,6 +21,9 @@ last_modified_at: 2021-05-30
 <br/><br/>
 
 이번 포스팅에서는 제 블로그를 기준으로 프로필, SNS링크, 스킨 등 간단한 설정에 대해서만 설명해 드리고 댓글 기능 등의 부분에 대해서 추후 기능 추가 포스팅을 할때 `_config.yml` 설정도 함께 다루겠습니다.
+<br/><br/>
+
+주의하실 점은 `_config.yml`의 환경설정과 변수들은 사이트가 빌드 될 때 한번만 읽어들이기 때문에 변경사항을 로컬에서 확인하기 위해서는 서비스를 종료하고 `bundle exec jekyll serve`를 다시 실행시킬 필요가 있습니다.
 <br/><br/>
 
 이 포스팅의 경우 추가할 내용이 생기면 업데이트 하도록 하겠습니다.   
@@ -90,7 +93,7 @@ search_provider          : lunr # lunr (default), algolia, google
 <br/>
 
 ***
-`skin`은 테마에서 초기에 기본적으로 제공하는 [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)에서 미리 볼 수 있습니다. 어차피 저희는 설치한 Jekyll로 로컬환경에서 호스팅 중이니 바꿔가며 바로바로 확인해보셔도 괜찮습니다.
+`skin`은 테마에서 초기에 기본적으로 제공하는 [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)에서 미리 볼 수 있습니다.
 
 <br/>
 

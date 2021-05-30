@@ -52,7 +52,7 @@ comments:
     provider               : "utterances"
     ...
     utterances:
-    theme                : "photon-dark" # "github-light" (default), "github-dark"
+    theme                : "dark-blue" # "github-light" (default), "github-dark"
     issue_term           : "pathname" # "pathname" (default)
     ...
 ...
@@ -162,7 +162,6 @@ defaults:
       comments:  true
       share: true
       related: true
-      sidebar_navi: true
   # _pages
   - scope:
       path: ""
@@ -170,7 +169,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar_navi: true
 ```
 
 <br/>

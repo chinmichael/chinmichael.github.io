@@ -161,7 +161,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      show_date: true
+      read_time: #true
       comments:  true
       share: true
       related: true
@@ -180,7 +181,7 @@ defaults:
 
 <br/>
 
- 댓글기능 활성화를 위해 `comment`부분을 활성화하고 `# _pages`부분을 추가한 정도지만...... 혹시 모르니 이 부분은 수정하지 않은 부분에 대해서 생략을 하지 않았습니다. 
+ 댓글기능을 위해 `comment`부분을 활성화하고 `read_time`대신 `show_date`를 활성화하여 포스팅 날짜를 표시한 정도지만...... 혹시 모르니 이 부분은 수정하지 않은 부분에 대해서 생략을 하지 않았습니다. 
 
 <br/>
 

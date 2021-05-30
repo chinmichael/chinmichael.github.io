@@ -13,7 +13,7 @@ toc_icon: "indent"
 toc_sticky: true
 
 date: 2021-05-30
-last_modified_at: 2021-05-30
+last_modified_at: 2021-05-31
 ---
 <br/>
 
@@ -177,11 +177,28 @@ defaults:
 
 <br/>
 
-포스팅 화면(`_posts`)과 카테고리나 태그 메뉴 등 Minimal Mistakes테마의 article 페이지(`_pages`)의 <u>레이아웃 종류나 무엇을 보여줄 지 등의 기본값을 설정</u>하는 부분입니다. `author_profile`은 좌측의 프로필 부분(모바일에서는 상단)을 보이게 하는가에 대한 부분입니다.
+포스팅 화면(`_posts`)과 카테고리나 태그 메뉴 등 Minimal Mistakes테마의 article 페이지(`_pages`)의 <u>레이아웃 종류 등의  기본값을 설정</u>하는 부분입니다. 예를 들어 `author_profile`은 좌측의 프로필 부분(모바일에서는 상단)을 보이게 하는가에 대한 부분입니다.
 
 <br/>
 
- 댓글기능을 위해 `comment`부분을 활성화하고 `read_time`대신 `show_date`를 활성화하여 포스팅 날짜를 표시한 정도지만...... 혹시 모르니 이 부분은 수정하지 않은 부분에 대해서 생략을 하지 않았습니다. 
+***
+[하우투 시리즈](https://devinlife.com/howto%20github%20pages/blog-config/)를 참고하여 `_posts`와 `_page`에 대해 좀 더 자세히 설명해 드리면,   
+우선 Jekyll에서 게시물은 기본적으로 `post`와 `page`로 구분됩니다.
+<br/>
+
+`_posts`폴더에 속한 `post`들은 날짜를 기반으로 파일명이 작성되며 뒤에서 다룰 포스팅 파일들이 됩니다.   
+`_pages`폴더에 속한 `page`들은 사이트맵, 카테고리, 소개페이지 등 날짜와 관계없이 특정 주소로 보여줄 파일들입니다.
+<br/>
+
+뒤에서 다시 다뤄지겠지만 위 `post`와 `page`파일들은 보통 확장자가 `.md`인 <u>Markdown파일로 작성되며 Jekyll이 해석하여 HTML로 변환해 게시</u>합니다.
+<br/>
+
+이때, <u>Markdown파일 최상단에는 제목, 레이아웃, 카테고리 등을 지정하기 위한 YFM(YAML Front Matter)이란 포맷</u>을 위치시킬 수 있는데, 위 `default`의 설정에서는 해당 YFM 포맷에서 공통으로 적용시킬 기본값을 세팅할 수 있습니다.
+
+<br/>
+
+***
+ 그밖에는 우선 댓글기능을 위해 `comment`부분을 활성화하고 `read_time`대신 `show_date`를 활성화하여 포스팅 날짜를 표시한 정도지만...... 혹시 모르니 이 부분은 수정하지 않은 부분에 대해서 생략을 하지 않았습니다. 
 
 <br/>
 

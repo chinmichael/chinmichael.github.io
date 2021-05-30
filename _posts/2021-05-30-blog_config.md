@@ -175,7 +175,7 @@ defaults:
 
 <br/>
 
-포스팅 화면(`_posts`)과 카테고리나 태그 메뉴 등 Minimal Mistakes테마의 article 페이지(`_pages`)의 <u>레이아웃 종류나 무엇을 보여줄 지</u>를 설정하는 부분입니다. `author_profile`은 좌측의 프로필 부분(모바일에서는 상단)을 보이게 하는가에 대한 부분입니다.
+포스팅 화면(`_posts`)과 카테고리나 태그 메뉴 등 Minimal Mistakes테마의 article 페이지(`_pages`)의 <u>레이아웃 종류나 무엇을 보여줄 지 등의 기본값을 설정</u>하는 부분입니다. `author_profile`은 좌측의 프로필 부분(모바일에서는 상단)을 보이게 하는가에 대한 부분입니다.
 
 <br/>
 

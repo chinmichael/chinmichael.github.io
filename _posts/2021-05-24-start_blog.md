@@ -5,7 +5,7 @@ excerpt: ""
 categories:
     - Blog Making
 tags:
-    - [Blog, Github Page]
+    - [Blog, Github Pages]
 
 toc: true
 toc_label: "목차"

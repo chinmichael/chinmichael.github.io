@@ -41,7 +41,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "dark-blue" # "github-light" (default), "github-dark" "photon-dark"
+    theme                : "photon-dark" # "github-light" (default), "github-dark" "photon-dark" "dark-blue"
     issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"

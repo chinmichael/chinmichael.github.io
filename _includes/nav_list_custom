@@ -34,8 +34,8 @@
             <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "AtoZ 용어 정리" %}
-                        <li><a href="/categories/" class="">AtoZ 용어 정리 ({{category[1].size}})</a></li>
+                    {% if category[0] == "AtoZ 용어정리" %}
+                        <li><a href="/categories/atoz-word" class="">AtoZ 용어정리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

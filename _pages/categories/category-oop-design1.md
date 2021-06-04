@@ -1,5 +1,5 @@
 ---
-title: "Design Pattern 1"
+title: "Design Pattern1"
 layout: archive
 permalink: categories/design-pattern1
 author_profile: true

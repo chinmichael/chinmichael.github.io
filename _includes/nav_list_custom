@@ -51,7 +51,7 @@
             <span class="nav__sub-title">OOP</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "design-pattern1" %}
+                    {% if category[0] == "Design Pattern1" %}
                         <li><a href="/categories/design-pattern1" class="">Design Pattern1 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}

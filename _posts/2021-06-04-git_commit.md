@@ -40,13 +40,16 @@ git init
 <br/>
 
 ***
-다시 본론으로, Git의 관리 하에 들어간 폴더의 파일들은 `working directory`, `staging area`, `repository` 영역에
-각각 차례로 `modified`, `staged`, `committed`라는 상태로 존재하게 됩니다.   
+다시 본론으로, Git의 관리 하에 들어간 폴더의 파일들은 `working directory`, `staging area`, `repository` 
+영역에 각각 차례로 (`unmodified`) `modified` / `staged` / `committed`라는 상태로 존재하게 됩니다.   
 
 각각의 내용은 이름에서 쉽게 유추가 가능합니다. `modified`는 변경사항이(생성, 삭제포함) 생긴 상태, 
-`staged`는 커밋을 시킬 후보로 선택된 상태 `committed`는 커밋되어 변경사항이 저장된 상태입니다.   
+`staged`는 커밋을 시킬 후보로 선택된 상태 `committed`는 커밋되어 변경된 스냅샷이 저장된 상태입니다.   
 
 이 때 주의할 점은 변경된`modified` 파일들은 바로 `commit`이 가능하지 않고 반드시 `add`로 `staged`상태를 거쳐야 한다는 점입니다.   
+
++) `working directory`에는 새로 추가되어 아직 Git의 관리(추적`tracked`)을 받지 않는 `untracked`상태의 
+파일도 있습니다. 이 경우 `add`로 `staged`된 이후부터 위의 3가지(정확히는 4가지) 상태에 속하게 됩니다.
 
 <br/>
 
@@ -57,7 +60,7 @@ git init
 git status
 ```
 출력된 로그에서 `Untracked files`(새로 추가된 추적되지 않은 파일) `Changes not staged`(변경된 파일) 중   
-커밋할 파일들을 아래 `add` 명령어로 `staged` 상태로 전환합니다.
+커밋할 파일들을 아래 `add` 명령어로 `staged` 상태로 전환합니다.   
 ```
 add .
 add 파일명
@@ -176,8 +179,8 @@ git revert 취소할커밋해시ID
 <br/>
 
 ## 4. 충돌 Conflict
-Git에서 `충돌(conflict)`은 이런 `revert`나 뒤에 나올 `merge`, `rebase`, `push`, `pull` 등 이미 '커밋된 변경
-내역 사이'에서 '병합'이 발생하는 상황일 때, '겹치는 부분에 차이'가 있을 경우 발생합니다.   
+Git에서 `충돌(conflict)`은 이런 `revert`나 뒤에 나올 `merge`, `rebase`, `push`, `pull` 등 이미 커밋된 변경
+사항 사이에서 병합되는 부분에 차이가 있을 경우나 히스토리 앞뒤가 맞지 않는 경우 발생합니다.   
 
 보통 Git에서 콘솔을 통해 어느 부분이 문제인지 알려주는데, 이 경우 어느 한쪽의 내용에 맞춰 수정하지 
 않으면 위 명령들이 수행되지 않습니다.   

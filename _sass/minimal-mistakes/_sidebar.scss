@@ -34,7 +34,25 @@
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
+
+    &.sticky::-webkit-scrollbar {
+      /*크롬 사파리 등 웹킷엔진에서 스크롤바 스타일을 바꾸기 위함 */
+      width: 5px;
+    }
+    &.sticky::-webkit-scrollbar-track {
+      background: $background-color;
+      border-radius: 10px;
+    }
+    &.sticky::-webkit-scrollbar-thumb {
+      background: $link-color-hover;
+      border-radius: 10px;
+    }
+    // &.sticky::-webkit-scrollbar:hover {
+    //   background: $primary-color;
+    // }
   }
+
+
 
   @include breakpoint($x-large) {
     width: calc(#{$right-sidebar-width} - 3em); /*1em*/

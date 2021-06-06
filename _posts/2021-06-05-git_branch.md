@@ -48,7 +48,8 @@ Branch는 VCS(Version Control System) 중 Git의 특장점으로 뽑히는 기�
 <br/>
 
 ***
-우선 Git에서 `branch`를 생성하는 명령어는 다음과 같습니다.
+우선 Git에서 `branch`를 생성하는 명령어는 다음과 같습니다.   
+(일단 기본적으로 Git 폴더를 만들면 `master`브랜치가 디폴트로 생성되어 있습니다.)
 ```
 git branch 브랜치명
 ```

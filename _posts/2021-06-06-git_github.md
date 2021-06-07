@@ -12,8 +12,8 @@ toc_label: "목차"
 toc_icon: "indent"
 toc_sticky: true
 
-date: 2021-06-05
-last_modified_at: 2021-06-05
+date: 2021-06-06
+last_modified_at: 2021-06-06
 ---
 Git은 VCS(Version Control System) 중 DVCS(Distributed 분산버전관리시스템)에 속합니다.   
 

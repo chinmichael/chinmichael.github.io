@@ -7,16 +7,16 @@
             <span class="nav__sub-title">블로그 관리</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Blog Making" %}
-                        <li><a href="/categories/blog-making" class="">Blog Making ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Blog Making" %}
+                <li><a href="/categories/blog-making" class="">Blog Making ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Blog Notice" %}
-                        <li><a href="/categories/blog-notice" class="">Blog Notice ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Blog Notice" %}
+                <li><a href="/categories/blog-notice" class="">Blog Notice ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </li>
@@ -24,9 +24,9 @@
             <span class="nav__sub-title">VCS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Git" %}
-                        <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Git" %}
+                <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </li>
@@ -34,26 +34,39 @@
             <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "AtoZ 용어정리" %}
-                        <li><a href="/categories/atoz-word" class="">AtoZ 용어정리 ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Algorithm Basic" %}
+                <li><a href="/categories/algorithm-basic" class="">Algorithm Basic ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
+        </li>
+        <li>
+            <span class="nav__sub-title">Front</span>
+            <!-- <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm Basic" %}
-                        <li><a href="/categories/algorithm-basic" class="">Algorithm Basic ({{category[1].size}})</a></li>
+                    {% if category[0] == "React & Next" %}
+                        <li><a href="/categories/git" class="">React & Next ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul> -->
         </li>
         <li>
             <span class="nav__sub-title">OOP</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Design Pattern1" %}
-                        <li><a href="/categories/design-pattern1" class="">Design Pattern1 ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Design Pattern1" %}
+                <li><a href="/categories/design-pattern1" class="">Design Pattern1 ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <span class="nav__sub-title">Study</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Company Study" %}
+                <li><a href="/categories/company-study" class="">Company Study ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </li>

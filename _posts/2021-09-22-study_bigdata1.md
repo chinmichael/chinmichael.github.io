@@ -201,23 +201,35 @@ ___
 
 ```
 1) 분산 코디네이터 : ZooKeeper
+>> 분산환경 구성을 위한 서버 통합 관리
 
 2) 분산 리소스 관리 : YARN, Mesos
+>> 스케쥴링, 클러스터 리소스 관리 등
 
-3) 데이터 저장 : HBase, HDFS, Kudu
+3) 데이터 수집 : Chukwa, Flume, Scribe, Kafka
 
-4) 데이터 수집 : Chukwa, Flume, Scribe, Kafka
+4) 데이터 저장 : HBase, HDFS, Kudu
 
 5) 데이터 처리 : Pig, Spark, Impala, Hive, MapReduce
 ```
 
-> 참조 & 참고할 사이트
-> [Hadoop & HDFS 1](https://yookeun.github.io/java/2015/05/24/hadoop-hdfs/)
-> [Hadoop & HDFS 2](https://c774c6a9d658.gitbooks.io/hadoop_study/content/hdfs_c544_d0a4_d14d_ccd0.html)
-> [Hadoop & HDFS 3](https://bennyziiolab.tistory.com/109)
-> [Hadoop Eco System](https://m.blog.naver.com/acornedu/222069158703)
-> [빅데이터 아키텍처](https://docs.microsoft.com/ko-kr/azure/architecture/data-guide/big-data/)
+![hadoop eco system](\assets\images\study-post\hadoop_eco1.png){: .align-center}   
+그림 출처 : [https://bennyziiolab.tistory.com/109]()
 
+
+![hadoop eco system](\assets\images\study-post\hadoop_eco2.png){: .align-center}   
+그림 출처 : [https://m.blog.naver.com/acornedu/222069158703]()
+
+
+> 참조 & 참고할 사이트   
+> - [와이케이의 마구잡이](https://yookeun.github.io/java/2015/05/24/hadoop-hdfs/)   
+> - [Hadoop Study](https://c774c6a9d658.gitbooks.io/hadoop_study/content/hdfs_c544_d0a4_d14d_ccd0.html)   
+> - [베니지오 IT 월드](https://bennyziiolab.tistory.com/109)   
+> - [에이콘 아카데미 블로그](https://m.blog.naver.com/acornedu/222069158703)   
+> - [빅데이터 아키텍처](https://docs.microsoft.com/ko-kr/azure/architecture/data-guide/big-data/)
+
+
+<br/>
 
 ___
 읽어주셔서 감사합니다.^^  
